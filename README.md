@@ -7,7 +7,7 @@ The system uses OpenAI embeddings, ChromaDB vector storage, and GPT-4o-mini to r
 ---
 
 ## 🚀 Features
-
+![alt text](Screenshots/upload.png.png)
 - Upload PDF and DOCX files
 - Build a searchable knowledge base
 - Ask questions in natural language
@@ -42,7 +42,6 @@ The system uses OpenAI embeddings, ChromaDB vector storage, and GPT-4o-mini to r
 
 ## 📂 Project Structure
 
-```text
 document-qa-bot/
 │
 ├── app.py
@@ -52,7 +51,6 @@ document-qa-bot/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-```
 
 ---
 
@@ -60,54 +58,41 @@ document-qa-bot/
 
 ### Clone Repository
 
-```bash
 git clone https://github.com/Dharmendra-Mr/document-qa-bot.git
 
 cd document-qa-bot
-```
 
 ### Create Virtual Environment
 
-```bash
 python -m venv venv
-```
 
 ### Activate Environment
 
 Windows:
 
-```bash
 venv\Scripts\activate
-```
 
 ### Install Dependencies
 
-```bash
 pip install -r requirements.txt
-```
-
----
 
 ## 🔑 Environment Variables
 
 Create a `.env` file:
 
-```env
+env
 OPENAI_API_KEY=your_openai_api_key
-```
 
 ---
 
 ## ▶️ Run Application
 
-```bash
 streamlit run app.py
-```
 
 ---
 
 ## 📖 How It Works
-
+![alt text](Screenshots/upload.png.png)
 1. Upload one or more PDF/DOCX documents.
 2. Click **Process Documents**.
 3. Documents are split into chunks.
@@ -140,11 +125,10 @@ If information is not available, the system responds:
 
 ```text
 I couldn't find this information in the uploaded documents.
-```
 
----
 
 ## 📸 Screenshots
+![alt text](image.png)
 
 ### Upload Documents
 
